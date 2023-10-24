@@ -7,7 +7,7 @@ from dj_rest_auth.registration.views import SocialLoginView
 
 class GoogleLogin(SocialLoginView): # if you want to use Authorization Code Grant, use this
     adapter_class = GoogleOAuth2Adapter
-    callback_url = "http://localhost:8000/"
+    callback_url = "http://localhost:3000/"
     client_class = OAuth2Client
 
 def email_confirmation(request, key):

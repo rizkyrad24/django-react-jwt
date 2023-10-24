@@ -17,7 +17,7 @@ const Login = ({ login, isAuthenticated }) => {
     }
     const reachGoogle = () => {
         const clientID = "Client Id Oauth google";
-        const callBackURI = "http://localhost:8000/";
+        const callBackURI = "http://localhost:3000/";
         window.location.replace(`https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=${callBackURI}&prompt=consent&response_type=code&client_id=${clientID}&scope=openid%20email%20profile&access_type=offline`)
     }
     if (isAuthenticated) {

@@ -50,6 +50,6 @@ wacth this video for adding social application https://www.youtube.com/watch?v=A
 
 20. Install all packages in react. run this command "yarn install"
 
-21. Open Login.jsx and change clientID with client id that you put in social applications in admin site.
+21. Open Login.jsx and change clientID with client id that you put in social applications in admin site. (frontend/src/Pages/Login.jsx)
 
 22. Test the application
