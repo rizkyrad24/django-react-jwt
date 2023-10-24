@@ -1,7 +1,7 @@
 # This repository is fullstack authentication using Django as backend and React as frontend.
 # This application use Json Web Token for authentication system.
 
-# Follow the instruction bellow to run this application in your local computer
+### Follow the instruction bellow to run this application in your local computer
 1. download or clone repository
 
 2. Start from backend. Create virtual env inside of backend directory. In the terminal, ensure you are in backend directory. run this command "virtualenv env"
